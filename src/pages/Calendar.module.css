@@ -1,0 +1,34 @@
+.CurrentDay {
+  color: orange;
+  border: 2px solid orange;
+  border-radius: 100px/100px;
+}
+
+.CurrentYear {
+  z-index: 1;
+  border-top: 1px solid rgba(0, 0, 0, 0.239);
+  background-color: #4c8dff;
+  color: white;
+  transition: transform 0.5s ease-in-out;
+}
+
+.Open {
+  transform: translateY(0px);
+}
+
+.Close {
+  transform: translateY(-35px);
+}
+
+.Pointer {
+  cursor: pointer;
+}
+
+.NextMonth {
+  color: lightgray;
+  cursor: default;
+}
+
+.MonthHeader {
+  display: inline-flex;
+}
